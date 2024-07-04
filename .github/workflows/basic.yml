@@ -1,0 +1,24 @@
+name: EspoCRM
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  build-and-test:
+    runs-on: [ self-hosted, xpress-kards ]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Build
+        run: |
+          # Add your build commands here
+          # For example, if it's a Node.js project, use: npm install
+          echo "BUILD-PROCESS"
+          #rsync -av --exclude '.env' --exclude '/storage' --exclude 'bootstrap/cache/' ~/actions-runner/_work/smartbook-lite-plus-vip/smartbook-lite-plus-vip/* /var/www/smartbook-lite-plus-vip/;
+
+  
+
