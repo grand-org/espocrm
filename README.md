@@ -1,4 +1,4 @@
-## EspoCRM
+## EspoCRM by GMTech Consult LTD
 
 [![PHPStan level 8](https://img.shields.io/badge/PHPStan-level%208-brightgreen)](#espocrm)
 
